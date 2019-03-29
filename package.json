@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/TashaShrader/MealSuggestions/issues"
   },
-  "homepage": "https://github.com/TashaShrader/MealSuggestions#readme"
+  "homepage": "https://github.com/TashaShrader/MealSuggestions#readme",
+  "dependencies": {
+    "react-router-dom": "^5.0.0"
+  }
 }
