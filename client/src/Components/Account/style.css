@@ -1,16 +1,90 @@
 .account{
-    width: 95%;
-    background-color: grey;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    
+width: 70%;
+background-color: grey;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-top: 5px;
+margin-left: auto;
+margin-right: 29px;
+border-radius: 5px 5px 30px 5px;
+margin-bottom: 10px;
+
+}
+.row {
+background-color: black;
+width: 23%;
+margin-left: 30px;
+padding-top: 5px;
+padding-bottom: 20px;
+padding-left: 5px;
+padding-right: 5px;
+float: left;
+text-align: center;
+border-radius: 5px 5px 5px 30px;
+
 }
 
+
+.card1 {
+background-color: grey;
+margin-top: 5px;
+margin-left: auto;
+margin-right: auto;
+border-style: solid;
+margin-right: auto;
+border-style: solid;
+border-color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 10px;
+}
+.card2 {
+background-color: grey;
+border-style: solid;
+border-color: white;
+margin-top: 5px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 10px;
+
+}
+
+
+
+.card3 {
+background-color: grey;
+border-style: solid;
+border-color: white;
+margin-top: 5px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 10px;
+
+}
+.card4 {
+background-color: grey;
+border-style: solid;
+border-color: white;
+margin-top: 5px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 10px;
+
+}
+
+
+.card5 {
+background-color: grey;
+border-style: solid;
+border-color: white;
+margin-top: 5px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 10px;
+
+}
 p  {
-    margin-left: 10px;
-    font-size: 30px;
+margin-left: 10px;
+font-size: 30px;
 }
 
