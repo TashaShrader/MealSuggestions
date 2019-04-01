@@ -5,30 +5,18 @@ padding-top: 10px;
 padding-bottom: 10px;
 margin-top: 5px;
 margin-left: auto;
-margin-right: 29px;
+margin-right: 38px;
 border-radius: 5px 5px 30px 5px;
 margin-bottom: 10px;
 }
 
-h1 {
-font-size: 30px;
-font-family: 'Baloo Chettan', cursive;
-}
 
-h2 {
-font-size: 20px;
-font-family: 'Roboto Condensed', sans-serif;
-margin-bottom: 3px;
-margin-top: 3px;
-}
-
-p {
-margin-top: 3px;
-}
 .user {
 font-size: 30px;
 text-align: center;
 margin-top: 10px;
+font-family: 'Baloo Chettan', cursive;
+
 }
 
 .suggestions {
@@ -36,19 +24,26 @@ font-size: 20px;
 width: 90%;
 margin-left: auto;
 margin-right: auto;
-
+font-family: 'Oswald', sans-serif;
+}
+.stuff {
+font-size: 20px;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
 font-family: 'Oswald', sans-serif;
 }
 
 .row {
 background-color: black;
 width: 23%;
-margin-left: 30px;
+margin-left: 38px;
 padding-top: 5px;
 padding-bottom: 20px;
 padding-left: 5px;
 padding-right: 5px;
 float: left;
+margin-top: 10px;
 text-align: center;
 border-radius: 5px 5px 5px 30px;
 }
