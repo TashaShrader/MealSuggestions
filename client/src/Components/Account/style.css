@@ -1,4 +1,4 @@
-.account{
+.account {
 width: 70%;
 background-color: grey;
 padding-top: 10px;
@@ -8,8 +8,38 @@ margin-left: auto;
 margin-right: 29px;
 border-radius: 5px 5px 30px 5px;
 margin-bottom: 10px;
-
 }
+
+h1 {
+font-size: 30px;
+font-family: 'Baloo Chettan', cursive;
+}
+
+h2 {
+font-size: 20px;
+font-family: 'Roboto Condensed', sans-serif;
+margin-bottom: 3px;
+margin-top: 3px;
+}
+
+p {
+margin-top: 3px;
+}
+.user {
+font-size: 30px;
+text-align: center;
+margin-top: 10px;
+}
+
+.suggestions {
+font-size: 20px;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+
+font-family: 'Oswald', sans-serif;
+}
+
 .row {
 background-color: black;
 width: 23%;
@@ -21,9 +51,7 @@ padding-right: 5px;
 float: left;
 text-align: center;
 border-radius: 5px 5px 5px 30px;
-
 }
-
 
 .card1 {
 background-color: grey;
@@ -37,7 +65,9 @@ border-color: white;
 padding-top: 10px;
 padding-bottom: 10px;
 border-radius: 10px;
+font-family: 'Work Sans', sans-serif;
 }
+
 .card2 {
 background-color: grey;
 border-style: solid;
@@ -46,10 +76,8 @@ margin-top: 5px;
 padding-top: 10px;
 padding-bottom: 10px;
 border-radius: 10px;
-
+font-family: 'Work Sans', sans-serif;
 }
-
-
 
 .card3 {
 background-color: grey;
@@ -59,8 +87,9 @@ margin-top: 5px;
 padding-top: 10px;
 padding-bottom: 10px;
 border-radius: 10px;
-
+font-family: 'Work Sans', sans-serif;
 }
+
 .card4 {
 background-color: grey;
 border-style: solid;
@@ -69,9 +98,8 @@ margin-top: 5px;
 padding-top: 10px;
 padding-bottom: 10px;
 border-radius: 10px;
-
+font-family: 'Work Sans', sans-serif;
 }
-
 
 .card5 {
 background-color: grey;
@@ -81,10 +109,15 @@ margin-top: 5px;
 padding-top: 10px;
 padding-bottom: 10px;
 border-radius: 10px;
+font-family: 'Work Sans', sans-serif;
+}
 
-}
-p  {
-margin-left: 10px;
-font-size: 30px;
-}
+
+/* font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+
+*/
 
