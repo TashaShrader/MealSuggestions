@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js && cd client && npm start",
-    "install": "npm install && cd client && npm install"
+    "install": "npm install && cd client"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/TashaShrader/MealSuggestions#readme",
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.20"
   }
 }
