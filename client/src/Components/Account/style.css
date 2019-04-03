@@ -1,5 +1,5 @@
 .account {
-width: 70%;
+width: 74%;
 background-color: whitesmoke;
 border-style: solid;
 border-color: rgb(128, 33, 33); 
@@ -11,17 +11,13 @@ margin-right: 38px;
 border-radius: 5px 5px 30px 5px;
 margin-bottom: 10px;
 }
-
-
 .user {
 font-size: 30px;
 text-align: center;
 margin-top: 10px;
 font-family: 'Baloo Chettan', cursive;
 color: rgb(128, 33, 33);
-
 }
-
 .suggestions {
 font-size: 20px;
 width: 90%;
@@ -36,22 +32,28 @@ margin-left: auto;
 margin-right: auto;
 font-family: 'Oswald', sans-serif;
 }
-
 .row {
 background-color: rgb(128, 33, 33);
-width: 23%;
+width: 20%;
 margin-left: 38px;
 padding-top: 5px;
 padding-bottom: 20px;
 padding-left: 5px;
 padding-right: 5px;
 float: left;
-margin-top: 10px;
+margin-top: 5px;
 text-align: center;
 border-radius: 5px 5px 5px 30px;
 }
+.row-header{
+    color: white;
+    font-family: 'Baloo Chettan', cursive;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 
-.card1 {
+}
+.calcium {
 background-color: rgb(207, 183, 151);
 margin-top: 5px;
 margin-left: auto;
@@ -60,57 +62,143 @@ border-style: solid;
 margin-right: auto;
 border-style: solid;
 border-color: white;
-padding-top: 10px;
-padding-bottom: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
 border-radius: 10px;
 font-family: 'Work Sans', sans-serif;
 }
-
-.card2 {
+.carbs {
 background-color: rgb(207, 183, 151);
 border-style: solid;
 border-color: white;
 margin-top: 5px;
-padding-top: 10px;
-padding-bottom: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-left: auto;
+margin-right: auto;
 border-radius: 10px;
 font-family: 'Work Sans', sans-serif;
 }
-
-.card3 {
+.fats {
 background-color: rgb(207, 183, 151);
 border-style: solid;
 border-color: white;
 margin-top: 5px;
-padding-top: 10px;
-padding-bottom: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
 border-radius: 10px;
 font-family: 'Work Sans', sans-serif;
 }
-
-.card4 {
+.iron {
 background-color: rgb(207, 183, 151);
 border-style: solid;
 border-color: white;
 margin-top: 5px;
-padding-top: 10px;
-padding-bottom: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
 border-radius: 10px;
 font-family: 'Work Sans', sans-serif;
 }
-
-.card5 {
+.fiber {
 background-color: rgb(207, 183, 151);
 border-style: solid;
 border-color: white;
 margin-top: 5px;
-padding-top: 10px;
-padding-bottom: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
 border-radius: 10px;
 font-family: 'Work Sans', sans-serif;
 }
-
-
+.potassium {
+background-color: rgb(207, 183, 151);
+border-style: solid;
+border-color: white;
+margin-top: 5px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 10px;
+font-family: 'Work Sans', sans-serif;
+}
+.sodium {
+background-color: rgb(207, 183, 151);
+border-style: solid;
+border-color: white;
+margin-top: 5px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 10px;
+font-family: 'Work Sans', sans-serif;
+}
+.calories {
+background-color: rgb(207, 183, 151);
+border-style: solid;
+border-color: white;
+margin-top: 5px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 10px;
+font-family: 'Work Sans', sans-serif;
+}
+.protien {
+background-color: rgb(207, 183, 151);
+border-style: solid;
+border-color: white;
+margin-top: 5px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 10px;
+font-family: 'Work Sans', sans-serif;
+}
+.vitE {
+background-color: rgb(207, 183, 151);
+border-style: solid;
+border-color: white;
+margin-top: 5px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 10px;
+font-family: 'Work Sans', sans-serif;
+}
+.vitA {
+background-color: rgb(207, 183, 151);
+border-style: solid;
+border-color: white;
+margin-top: 5px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 10px;
+font-family: 'Work Sans', sans-serif;
+}
+.vitB12 {
+background-color: rgb(207, 183, 151);
+border-style: solid;
+border-color: white;
+margin-top: 5px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 10px;
+font-family: 'Work Sans', sans-serif;
+}
+.vitC {
+background-color: rgb(207, 183, 151);
+border-style: solid;
+border-color: white;
+margin-top: 5px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 10px;
+font-family: 'Work Sans', sans-serif;
+}
+.vitD {
+background-color: rgb(207, 183, 151);
+border-style: solid;
+border-color: white;
+margin-top: 5px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 10px;
+font-family: 'Work Sans', sans-serif;
+}
 /* font-family: 'Roboto Condensed', sans-serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Raleway', sans-serif;
