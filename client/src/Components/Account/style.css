@@ -1,6 +1,8 @@
 .account {
 width: 70%;
-background-color: grey;
+background-color: whitesmoke;
+border-style: solid;
+border-color: rgb(128, 33, 33); 
 padding-top: 10px;
 padding-bottom: 10px;
 margin-top: 5px;
@@ -16,6 +18,7 @@ font-size: 30px;
 text-align: center;
 margin-top: 10px;
 font-family: 'Baloo Chettan', cursive;
+color: rgb(128, 33, 33);
 
 }
 
@@ -35,7 +38,7 @@ font-family: 'Oswald', sans-serif;
 }
 
 .row {
-background-color: black;
+background-color: rgb(128, 33, 33);
 width: 23%;
 margin-left: 38px;
 padding-top: 5px;
@@ -49,7 +52,7 @@ border-radius: 5px 5px 5px 30px;
 }
 
 .card1 {
-background-color: grey;
+background-color: rgb(207, 183, 151);
 margin-top: 5px;
 margin-left: auto;
 margin-right: auto;
@@ -64,7 +67,7 @@ font-family: 'Work Sans', sans-serif;
 }
 
 .card2 {
-background-color: grey;
+background-color: rgb(207, 183, 151);
 border-style: solid;
 border-color: white;
 margin-top: 5px;
@@ -75,7 +78,7 @@ font-family: 'Work Sans', sans-serif;
 }
 
 .card3 {
-background-color: grey;
+background-color: rgb(207, 183, 151);
 border-style: solid;
 border-color: white;
 margin-top: 5px;
@@ -86,7 +89,7 @@ font-family: 'Work Sans', sans-serif;
 }
 
 .card4 {
-background-color: grey;
+background-color: rgb(207, 183, 151);
 border-style: solid;
 border-color: white;
 margin-top: 5px;
@@ -97,7 +100,7 @@ font-family: 'Work Sans', sans-serif;
 }
 
 .card5 {
-background-color: grey;
+background-color: rgb(207, 183, 151);
 border-style: solid;
 border-color: white;
 margin-top: 5px;

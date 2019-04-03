@@ -1,5 +1,5 @@
 .navbar {
-background-color: black;
+background-color: rgb(128, 33, 33);
 border-radius: 30px 30px 5px 5px;
 width: 95%;
 margin-left: auto;
@@ -20,7 +20,7 @@ font-family: 'Baloo Chettan', cursive;
 
 .home {
 margin-left: 75%;
-color: grey;
+color: rgb(61, 22, 22);
 width: 20%;
 font-size: 25px;
 font-family: 'Oswald', sans-serif;
@@ -29,7 +29,7 @@ font-family: 'Oswald', sans-serif;
 .accountbutton {
 margin-left: 10px;
 width: 20%;
-color: grey;
+color: rgb(61, 22, 22);
 font-size: 25px;
 width: 200px;
 height: 50px;
@@ -39,7 +39,7 @@ font-family: 'Oswald', sans-serif;
 .login {
 margin-left: 10px;
 width: 20%;
-color: grey;
+color: rgb(61, 22, 22);
 font-size: 25px;
 width: 200px;
 height: 50px;

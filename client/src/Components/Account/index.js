@@ -19,7 +19,19 @@ function Account() {
                 <div className="user">Hello "will pull in user name here"</div>
                 <div className="suggestions">Suggestions!</div>
                 <div className="stuff">stuff</div>
-            </div>
+                <br></br>
+                <div className="stuff">i would assume there will be more info in here</div>
+               <br></br>
+                <div className="stuff">that will fill more of the page</div>
+                <br></br>
+                <div className="stuff">to look more like this</div>
+                <br></br>
+                <div className="stuff">to look more like this</div>
+                <br></br>
+                <div className="stuff">to look more like this</div>
+                <br></br>
+                <div className="stuff">to look more like this</div>
+                </div>
         </div>
     )
 }
