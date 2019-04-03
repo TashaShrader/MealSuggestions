@@ -36,7 +36,7 @@ height: 50px;
 font-family: 'Oswald', sans-serif;
 }
 
-.login {
+.logout {
 margin-left: 10px;
 width: 20%;
 color: rgb(61, 22, 22);
@@ -73,7 +73,7 @@ font-size: 17px;
 .accountbutton {
 font-size: 17px;
 }
-.login {
+.logout {
 font-size: 17px;
 }
 }
@@ -88,7 +88,7 @@ font-size: 13px;
 .accountbutton {
 font-size: 13px;
 }
-.login {
+.logout {
 font-size: 13px;
 }
 }
@@ -100,7 +100,7 @@ font-size: 10px;
 .accountbutton {
 font-size: 10px;
 }
-.login {
+.logout {
 font-size: 10px;
 }
 }

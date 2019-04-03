@@ -2,6 +2,8 @@ import React from "react";
 import "./style.css";
 
 
+
+function LogIn() {
 // const signUpButton = document.getElementById('signUp');
 // const signInButton = document.getElementById('signIn');
 // const container = document.getElementById('container');
@@ -14,9 +16,8 @@ import "./style.css";
 // 	container.classList.remove("right-panel-active");
 // });
 
-function LogIn() {
+return(
 
-	return(
 <div>
 	<h2>WEBSITE NAME GOES HERE&#*#*#(#(#(#(#</h2>
 	<div className="body">
