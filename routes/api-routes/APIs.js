@@ -13,12 +13,6 @@ var app = express.Router();
 // Database configuration
 mongoose.connect("mongodb://localhost/users", { useNewUrlParser: true });
 
-
-
-
-
-
-
 app.post('/login', function (req, res) {
     //Normally, you would fetch the user from the database here.
     //then save the relevant info in user details
@@ -48,7 +42,6 @@ app.post('/login', function (req, res) {
                             Token: token,
                         })
                     }
-
                 })
         }
         else {
@@ -91,4 +84,4 @@ let verifyToken = function (req, res, next) {
 }
 
 
-  module.exports = app;
+module.exports = app;
