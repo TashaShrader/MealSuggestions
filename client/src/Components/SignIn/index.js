@@ -20,7 +20,7 @@ function LogIn() {
 return(
 
 <div>
-	<h2>WEBSITE NAME GOES HERE&#*#*#(#(#(#(#</h2>
+	<h2>WEBSITE NAME GOES HERE#*#*#(#(#(#(#</h2>
 	<div className="body">
 		<div class="container" id="container">
 			<div class="form-container sign-up-container">
@@ -72,6 +72,7 @@ return(
 		</div>
 	)
 }
+
 
 
 export default LogIn;
