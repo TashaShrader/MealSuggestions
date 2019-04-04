@@ -6,24 +6,13 @@ import LogIn from "./Components/SignIn";
 import firebase from 'firebase'
 import app from 'firebase/app'
 import 'firebase/auth'
-import config from './ENVIRONMENT/FirebaseConfig'
+import firebaseConfig from './ENVIRONMENT/FirebaseConfig'
+import uiConfig from './ENVIRONMENT/uiConfig'
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 
 
-app.initializeApp(config);
+app.initializeApp(firebaseConfig);
 
-const uiConfig = {
-  signInFlow : "popup",
-  signInOptions : [
-    app.auth.GoogleAuthProvider.PROVIDER_ID
-  ],
-  callbacks: {
-    signInSuccessWithAuthResult: (result) => {
-      console.log(result);
-      return false;
-  }
-}
-}
 
 class App extends Component {
   state = {signedIn : false}
@@ -35,7 +24,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        {this.state.signedIn  ? (<a onClick={() => firebase.auth().signOut()}>Sign-out</a>) : (<StyledFirebaseAuth  
+        {this.state.signedIn  ? 
+        (<a onClick={() => firebase.auth().signOut()}>Sign-out</a>) : 
+        (<StyledFirebaseAuth  
           uiConfig = {uiConfig}
           firebaseAuth = {firebase.auth()}
           />)}
