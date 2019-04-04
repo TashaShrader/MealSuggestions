@@ -10,7 +10,7 @@ a:focus {
 body{
     margin:0;
     padding:0;
-    background-image:url(../images/kitchen1.jpg);
+    /* background-image:url(../images/kitchen1.jpg); */
     background-repeat:repeat-y;
     background-size:cover;
     background-attachment: fixed;
