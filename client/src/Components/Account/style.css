@@ -1,15 +1,14 @@
 .account {
-width: 74%;
+width: 71%;
 background-color: whitesmoke;
 border-style: solid;
 border-color: rgb(128, 33, 33); 
 padding-top: 10px;
 padding-bottom: 10px;
 margin-top: 5px;
-margin-left: auto;
-margin-right: 38px;
 border-radius: 5px 5px 30px 5px;
 margin-bottom: 10px;
+margin-left: 25%;
 }
 .user {
 font-size: 30px;
@@ -25,6 +24,14 @@ margin-left: auto;
 margin-right: auto;
 font-family: 'Oswald', sans-serif;
 }
+.image {
+max-width: 400px;
+float: right;
+margin-right: 30px;
+}
+img {
+border-radius: 30px 10px 10px 10px;
+}
 .stuff {
 font-size: 20px;
 width: 90%;
@@ -35,23 +42,23 @@ font-family: 'Oswald', sans-serif;
 .row {
 background-color: rgb(128, 33, 33);
 width: 20%;
-margin-left: 38px;
 padding-top: 5px;
 padding-bottom: 20px;
 padding-left: 5px;
 padding-right: 5px;
-float: left;
 margin-top: 5px;
 text-align: center;
+float: left;
+margin-left: 4%;
 border-radius: 5px 5px 5px 30px;
+font-size: 14px;
 }
 .row-header{
-    color: white;
-    font-family: 'Baloo Chettan', cursive;
-    font-size: 20px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-
+color: white;
+font-family: 'Baloo Chettan', cursive;
+font-size: 15px;
+margin-bottom: 5px;
+margin-top: 5px;
 }
 .calcium {
 background-color: rgb(207, 183, 151);
@@ -207,3 +214,50 @@ font-family: 'Nanum Gothic', sans-serif;
 
 */
 
+@media only screen and (max-width: 700px) {
+.row {
+font-size: 10px;
+}
+.row-header {
+font-size: 10px;
+}
+.user {
+font-size: 20px;
+}
+.suggestions {
+font-size: 15px;
+}
+.stuff {
+font-size: 15px;
+}
+}
+
+@media only screen and (max-width: 450px) {
+.row {
+font-size: 7px;
+}
+.row-header {
+font-size: 7px;
+}
+.user {
+font-size: 17px;
+}
+.suggestions {
+font-size: 10px;
+}
+.stuff {
+font-size: 10px;
+}
+}
+@media only screen and (max-width: 400px) {
+.user {
+font-size: 14px;
+margin-top: 5px;
+}
+.suggestions {
+font-size: 10px;
+}
+.stuff {
+font-size: 10px;
+}
+}
