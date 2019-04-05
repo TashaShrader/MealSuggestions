@@ -1,6 +1,6 @@
 .account {
 width: 71%;
-background-color: whitesmoke;
+background-color: rgb(207, 183, 151);
 border-style: solid;
 border-color: rgb(128, 33, 33); 
 padding-top: 10px;
@@ -9,6 +9,8 @@ margin-top: 5px;
 border-radius: 5px 5px 30px 5px;
 margin-bottom: 10px;
 margin-left: 25%;
+box-shadow: 2px 2px rgb(66, 18, 18);
+
 }
 .user {
 font-size: 30px;
@@ -16,6 +18,8 @@ text-align: center;
 margin-top: 10px;
 font-family: 'Baloo Chettan', cursive;
 color: rgb(128, 33, 33);
+text-shadow: 2px 1px black;
+
 }
 .suggestions {
 font-size: 20px;
@@ -23,6 +27,7 @@ width: 90%;
 margin-left: auto;
 margin-right: auto;
 font-family: 'Oswald', sans-serif;
+
 }
 .image {
 max-width: 400px;
@@ -52,6 +57,8 @@ float: left;
 margin-left: 4%;
 border-radius: 5px 5px 5px 30px;
 font-size: 14px;
+box-shadow: 2px 2px rgb(66, 18, 18);
+
 }
 .row-header{
 color: white;
@@ -59,6 +66,8 @@ font-family: 'Baloo Chettan', cursive;
 font-size: 15px;
 margin-bottom: 5px;
 margin-top: 5px;
+text-shadow: 2px 2px black;
+
 }
 .calcium {
 background-color: rgb(207, 183, 151);
@@ -73,6 +82,7 @@ padding-top: 5px;
 padding-bottom: 5px;
 border-radius: 10px;
 font-family: 'Work Sans', sans-serif;
+box-shadow: 2px 2px rgb(66, 18, 18);
 }
 .carbs {
 background-color: rgb(207, 183, 151);
@@ -85,6 +95,7 @@ margin-left: auto;
 margin-right: auto;
 border-radius: 10px;
 font-family: 'Work Sans', sans-serif;
+box-shadow: 2px 2px rgb(66, 18, 18);
 }
 .fats {
 background-color: rgb(207, 183, 151);
@@ -95,6 +106,7 @@ padding-top: 5px;
 padding-bottom: 5px;
 border-radius: 10px;
 font-family: 'Work Sans', sans-serif;
+box-shadow: 2px 2px rgb(66, 18, 18);
 }
 .iron {
 background-color: rgb(207, 183, 151);
@@ -105,6 +117,7 @@ padding-top: 5px;
 padding-bottom: 5px;
 border-radius: 10px;
 font-family: 'Work Sans', sans-serif;
+box-shadow: 2px 2px rgb(66, 18, 18);
 }
 .fiber {
 background-color: rgb(207, 183, 151);
@@ -115,6 +128,7 @@ padding-top: 5px;
 padding-bottom: 5px;
 border-radius: 10px;
 font-family: 'Work Sans', sans-serif;
+box-shadow: 2px 2px rgb(66, 18, 18);
 }
 .potassium {
 background-color: rgb(207, 183, 151);
@@ -125,6 +139,7 @@ padding-top: 5px;
 padding-bottom: 5px;
 border-radius: 10px;
 font-family: 'Work Sans', sans-serif;
+box-shadow: 2px 2px rgb(66, 18, 18);
 }
 .sodium {
 background-color: rgb(207, 183, 151);
@@ -135,6 +150,7 @@ padding-top: 5px;
 padding-bottom: 5px;
 border-radius: 10px;
 font-family: 'Work Sans', sans-serif;
+box-shadow: 2px 2px rgb(66, 18, 18);
 }
 .calories {
 background-color: rgb(207, 183, 151);
@@ -145,6 +161,7 @@ padding-top: 5px;
 padding-bottom: 5px;
 border-radius: 10px;
 font-family: 'Work Sans', sans-serif;
+box-shadow: 2px 2px rgb(66, 18, 18);
 }
 .protien {
 background-color: rgb(207, 183, 151);
@@ -155,6 +172,7 @@ padding-top: 5px;
 padding-bottom: 5px;
 border-radius: 10px;
 font-family: 'Work Sans', sans-serif;
+box-shadow: 2px 2px rgb(66, 18, 18);
 }
 .vitE {
 background-color: rgb(207, 183, 151);
@@ -165,6 +183,7 @@ padding-top: 5px;
 padding-bottom: 5px;
 border-radius: 10px;
 font-family: 'Work Sans', sans-serif;
+box-shadow: 2px 2px rgb(66, 18, 18);
 }
 .vitA {
 background-color: rgb(207, 183, 151);
@@ -175,6 +194,7 @@ padding-top: 5px;
 padding-bottom: 5px;
 border-radius: 10px;
 font-family: 'Work Sans', sans-serif;
+box-shadow: 2px 2px rgb(66, 18, 18);
 }
 .vitB12 {
 background-color: rgb(207, 183, 151);
@@ -185,6 +205,7 @@ padding-top: 5px;
 padding-bottom: 5px;
 border-radius: 10px;
 font-family: 'Work Sans', sans-serif;
+box-shadow: 2px 2px rgb(66, 18, 18);
 }
 .vitC {
 background-color: rgb(207, 183, 151);
@@ -195,6 +216,7 @@ padding-top: 5px;
 padding-bottom: 5px;
 border-radius: 10px;
 font-family: 'Work Sans', sans-serif;
+box-shadow: 2px 2px rgb(66, 18, 18);
 }
 .vitD {
 background-color: rgb(207, 183, 151);
@@ -205,6 +227,7 @@ padding-top: 5px;
 padding-bottom: 5px;
 border-radius: 10px;
 font-family: 'Work Sans', sans-serif;
+box-shadow: 2px 2px rgb(66, 18, 18);
 }
 /* font-family: 'Roboto Condensed', sans-serif;
 font-family: 'Oswald', sans-serif;
