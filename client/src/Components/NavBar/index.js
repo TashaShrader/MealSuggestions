@@ -13,9 +13,8 @@ function NavBar() {
             <div className="title">Meal Suggestion App</div>
             <a href="/home" className="home">home</a>
             <a href="/account" className="accountbutton">account</a>
-            <a className="logout" onClick={() => firebase.auth().signOut()}>sign-out</a>
-            {/* <SignInGoogleBase /> */}
-            
+            <a href="/" className="logout" onClick={() => firebase.auth().signOut()}>sign-out</a>
+           
         </div>
     )
 }

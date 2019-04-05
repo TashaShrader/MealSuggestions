@@ -11,20 +11,20 @@ function Account() {
             <NavBar />
             <div className="row">
             <div className="row-header">Daily Nutrition Values</div>
-                <div className="calcium">Calcium:</div>
-                <div className="carbs">Carbohydrates:</div>
-                <div className="fats">Fats:</div>
-                <div className="iron">Iron:</div>
-                <div className="fiber">Fiber:</div>
-                <div className="potassium">Potassium:</div>
-                <div className="sodium">Sodium:</div>
-                <div className="calories">Calories:</div>
-                <div className="protien">Protien:</div>
-                <div className="vitA">Vitamin A:</div>
-                <div className="vitE">Vitamin E:</div>
-                <div className="vitB12">Vitamin B12:</div>
-                <div className="vitC">Vitamin C:</div>
-                <div className="vitD">Vitamin D:</div>
+                <div className="calcium"><b>Calcium:</b></div>
+                <div className="carbs"><b>Carbohydrates:</b></div>
+                <div className="fats"><b>Fats:</b></div>
+                <div className="iron"><b>Iron:</b></div>
+                <div className="fiber"><b>Fiber:</b></div>
+                <div className="potassium"><b>Potassium:</b></div>
+                <div className="sodium"><b>Sodium:</b></div>
+                <div className="calories"><b>Calories:</b></div>
+                <div className="protien"><b>Protien:</b></div>
+                <div className="vitA"><b>Vitamin A:</b></div>
+                <div className="vitE"><b>Vitamin E:</b></div>
+                <div className="vitB12"><b>Vitamin B12:</b></div>
+                <div className="vitC"><b>Vitamin C:</b></div>
+                <div className="vitD"><b>Vitamin D:</b></div>
             </div>
             <div className="account">
                 <div className="user">Hello "will pull in user name here"</div>
