@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import "./style.css";
-import firebase from 'firebase';
+import firebase, { auth } from 'firebase';
 import app from 'firebase/app';
 import 'firebase/auth';
 import config from '../../ENVIRONMENT/FirebaseConfig';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import uiConfig from "../../ENVIRONMENT/uiConfig";
 app.initializeApp(config);
+
+let user = firebase.auth().currentUser
+console.log(user);
 
 class LogIn extends Component {
 	// const signUpButton = document.getElementById('signUp');
@@ -24,11 +27,13 @@ class LogIn extends Component {
 			this.setState({ signedIn: ! !user })
 		})
 	}
+
+
 	render() {
 
 		return (
 			<div>
-				<h2>Meal Suggestion</h2>
+				<h2>The Mealler Report</h2>
 				<div className="body">
 					<div class="container" id="container">
 						<div class="form-container sign-up-container">

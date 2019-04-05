@@ -1,29 +1,26 @@
 const db = require("../models/User");
 var moment = require('moment');
-
-var now = moment();
+var now = moment().format("L")
 console.log(now);
 
+//return nutrients from today
+let searchNutrientsByDate = function(nutsArrayElement){
+    if(nutsArrayElement.date === now){
+        return nutsArrayElement
+    }
+}
 // Defining methods for the UsersController
 module.exports = {
   findByDate: function(req, res) {
-    db.find({name: req}, 'Nutrients',  (err, docs) =>{
-        if (err) console.log (err);
-        else{
-            console.log(docs);
-        }
-    })
-  },
+     db.find({name: req}, 'Nutrients')
+     .then (docs =>{
+         console.log(docs[10].Nutrients.map(searchNutrientsByDate))
+     }).catch(err => console.log(err))
+},
   create: function(req, res) {
-      console.log(req)
-    db.create(req, (err,dbModel)=>{
-        // res.json(dbModel);
+    db.create(req, (err,newDoc)=>{
+        console.log(newDoc);
     })
-    //   .then((err, dbModel) => {console.log(err);
-    //       res.json(dbModel)
-    // console.log(dbModel)})
-    //   .catch(err => {console.log(err);
-    //       res.status(422).json(err)});
   },
 //   update: function(req, res) {
 //     db.User
