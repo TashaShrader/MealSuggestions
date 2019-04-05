@@ -13,7 +13,7 @@ const UserSchema = new Schema({
     {
       nutrient: String,
       quantity: Number,
-      created_at: Date,
+      date: String,
     }
   ]
 });

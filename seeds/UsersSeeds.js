@@ -8,13 +8,14 @@ var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/" + databaseUr
 
 mongoose.connect (MONGODB_URI,{useNewUrlParser: true}, err => console.log(err)) ;
 
+
 const Mitch1 = {
     name: "Mitch",
     email: "SVGPathSegCurvetoCubicSmoothAbs",
     Nutrients: [{
         nutrient: "calcium",
         quantity: 10,
-        date: moment()
+        date: moment().format("L")
     }]
 }; 
  const Mitch2 = {
@@ -23,7 +24,7 @@ const Mitch1 = {
         Nutrients: [{
             nutrient: "pizzazz",
             quantity: 10000000000,
-            date: moment()
+            date: moment().format("L")
         }]
     } 
     const Mitch3 = { 
@@ -32,11 +33,11 @@ const Mitch1 = {
         Nutrients: [{
             nutrient: "pizzazz",
             quantity: "0",
-            date: moment()
+            date: moment().format("L")
         }]
     }
 
 controller.create(Mitch1);
-controller.create(Mitch2);
-controller.create(Mitch3);
-// controller.findByDate("Mulch");
+// controller.create(Mitch2);
+// controller.create(Mitch3);
+console.log(controller.findByDate("Mulch"));
