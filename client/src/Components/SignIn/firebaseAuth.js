@@ -1,5 +1,5 @@
-import React from 'react'
-import Firebase from "../../ENVIRONMENT/FirebaseConfig"
+import React from 'react';
+import Firebase from "../../ENVIRONMENT/FirebaseConfig";
 
 class SignInGoogleBase extends React.Component {
     constructor(props) {

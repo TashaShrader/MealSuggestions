@@ -1,26 +1,41 @@
-
-import React from "react";
+import React, { Component } from 'react';
 import "./style.css";
+import firebase from 'firebase';
+import app from 'firebase/app';
+import 'firebase/auth';
+import config from '../../ENVIRONMENT/FirebaseConfig';
+import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
+import uiConfig from "../../ENVIRONMENT/uiConfig";
+app.initializeApp(config);
 
-
-
-function LogIn() {
+class LogIn extends Component{
 // const signUpButton = document.getElementById('signUp');
 // const signInButton = document.getElementById('signIn');
 // const container = document.getElementById('container');
-
 // signUpButton.addEventListener('click', () => {
 // 	container.classList.add("right-panel-active");
 // });
-
 // signInButton.addEventListener('click', () => {
 // 	container.classList.remove("right-panel-active");
 // });
+state = {signedIn : false}
+componentDidMount = () =>{
+  firebase.auth().onAuthStateChanged(user =>{
+	this.setState({signedIn : ! ! user})
+  })
+}
+render() {
 
 return(
+	<div>
+	{this.state.signedIn  ? 
+        (<a onClick={() => firebase.auth().signOut()}>Sign-out</a>) : 
+        (<StyledFirebaseAuth  
+          uiConfig = {uiConfig}
+          firebaseAuth = {firebase.auth()}
+          />)}
 
-<div>
-	<h2>WEBSITE NAME GOES HERE#*#*#(#(#(#(#</h2>
+	<h2>Meal Suggestion</h2>
 	<div className="body">
 		<div class="container" id="container">
 			<div class="form-container sign-up-container">
@@ -70,9 +85,9 @@ return(
 		</div>
 		</div>
 		</div>
-	)
+		)
 }
-
+}
 
 
 export default LogIn;
