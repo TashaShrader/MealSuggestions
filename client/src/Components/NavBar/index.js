@@ -1,6 +1,9 @@
 import React from "react";
 import "./style.css";
-// import SignInGoogleBase from "../SignIn/firebaseAuth";
+import firebase from 'firebase';
+
+import 'firebase/auth';
+
 
 
 function NavBar() {
@@ -10,7 +13,7 @@ function NavBar() {
             <div className="title">Meal Suggestion App</div>
             <a href="/home" className="home">home</a>
             <a href="/account" className="accountbutton">account</a>
-            <a href="/login" className="logout">logout</a>
+            <a className="logout" onClick={() => firebase.auth().signOut()}>sign-out</a>
             {/* <SignInGoogleBase /> */}
             
         </div>
