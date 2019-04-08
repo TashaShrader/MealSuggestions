@@ -6,5 +6,4 @@ const config = {
   "storageBucket": "meal-suggestions.appspot.com",
   "messagingSenderId": "710323756283"
 }
-
 export default config;
