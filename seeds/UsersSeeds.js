@@ -32,12 +32,21 @@ const Mitch1 = {
         email: "reliable@yahoo.com",
         Nutrients: [{
             nutrient: "pizzazz",
-            quantity: "0",
+            quantity: 0,
             date: moment().format("L")
         }]
     }
 
-controller.create(Mitch1);
+// controller.create(Mitch1);
 // controller.create(Mitch2);
 // controller.create(Mitch3);
-console.log(controller.findByDate("Mulch"));
+// console.log(controller.findByDate("Mulch"));
+let nutrientUpdateObj = {
+    email: "mitburr@gmail.com",
+    nutrient: {
+        nutrient: "Spark of the Divine",
+        quantity: 0,
+        date: moment().format("L")
+    }
+}
+controller.updateNutrients(nutrientUpdateObj)
