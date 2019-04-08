@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import "./style.css";
-import firebase from 'firebase';
-import app from 'firebase/app';
+//import firebase from 'firebase';
+import firebase from 'firebase/app';
 import 'firebase/auth';
 import config from '../../ENVIRONMENT/FirebaseConfig';
 import {StyledFirebaseAuth} from 'react-firebaseui';
 import uiConfig from "../../ENVIRONMENT/uiConfig";
-app.initializeApp(config);
+firebase.initializeApp(config);
 
 
 class LogIn extends Component {
