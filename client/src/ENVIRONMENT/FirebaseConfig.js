@@ -1,5 +1,5 @@
 const config = {
-  "apiKey": "AIzaSyBpry9Zmkh1FIF9TmbLWLvwWcEZfnlYrzU",
+  "apiKey": "AIzaSyC-NCS79n8LgFuccgFQO2Ciz2UfQo6Zjr4",
   "authDomain": "meal-suggestions.firebaseapp.com",
   "databaseURL": "https://meal-suggestions.firebaseio.com",
   "projectId": "meal-suggestions",
