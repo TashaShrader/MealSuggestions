@@ -1,11 +1,18 @@
-import React from "react";
+import React, {Component} from "react";
 import "./style.css";
 import NavBar from "../NavBar";
 import findUsernameCookie from "../../UtilityFunctions/findUsernameCookie"
+import API from '../../UtilityFunctions/API'
 
 console.log(findUsernameCookie());
 
-function Account() {
+
+class Account extends Component {
+    
+componentDidMount = () =>{
+    console.log(API.createAccount("test"))
+}
+    render(){
     return (
         <div>
             <NavBar />
@@ -46,6 +53,7 @@ function Account() {
                 </div>
         </div>
     )
+    }
 }
 
 export default Account;
