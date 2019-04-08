@@ -7,7 +7,6 @@
     "firebase": "^5.9.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-firebaseui": "^3.1.2",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8"
   },
@@ -30,12 +29,12 @@
   "main": "index.js",
   "devDependencies": {
     "axios": "^0.18.0",
+    "firebase": "^5.9.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8",
     "react-firebaseui": "^3.1.2",
-    "firebase": "^5.9.3"
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8"
   },
   "author": "",
   "license": "ISC"
