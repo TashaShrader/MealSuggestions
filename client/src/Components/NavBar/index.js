@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
 import firebase from 'firebase';
-
 import 'firebase/auth';
 
 

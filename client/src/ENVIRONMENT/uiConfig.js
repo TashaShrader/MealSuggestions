@@ -5,7 +5,7 @@ const uiConfig = {
   signInOptions : [
     app.auth.GoogleAuthProvider.PROVIDER_ID
   ],  
-  signInSuccessUrl: '/account',
+  signInSuccessUrl: '/home',
 
   callbacks: {
     signInSuccessWithAuthResult: (result) => {
