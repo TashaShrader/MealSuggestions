@@ -1,9 +1,9 @@
 import React, {Component} from "react";
 import "./style.css";
 import NavBar from "../NavBar";
-import findUsernameCookie from "../../UtilityFunctions/findUsernameCookie"
-import findUserEmail from "../../UtilityFunctions/findUserEmail"
-import API from '../../UtilityFunctions/API'
+// import findUsernameCookie from "../../UtilityFunctions/findUsernameCookie"
+// import findUserEmail from "../../UtilityFunctions/findUserEmail"
+// import API from '../../UtilityFunctions/API'
 
 class Account extends Component {
     

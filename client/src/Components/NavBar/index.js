@@ -2,7 +2,6 @@ import React from "react";
 import "./style.css";
 import firebase from 'firebase';
 import 'firebase/auth';
-import ui from "../../ENVIRONMENT/uiConfig";
 
 
 
