@@ -4,10 +4,9 @@ import Firebase from "../../ENVIRONMENT/FirebaseConfig";
 class SignInGoogleBase extends React.Component {
     constructor(props) {
       super(props);
-  
       this.state = { error: null };
     }
-  
+
     onSubmit = event => {
       this.props.firebase
         .doSignInWithGoogle()
@@ -28,7 +27,6 @@ class SignInGoogleBase extends React.Component {
       return (
         <form onSubmit={this.onSubmit}>
           <button type="submit">Sign In with Google</button>
-  
           {error && <p>{error.message}</p>}
         </form>
       );
