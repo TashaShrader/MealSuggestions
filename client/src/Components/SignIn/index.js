@@ -30,7 +30,6 @@ class LogIn extends Component {
 
 
 	render() {
-
 		return (
 			<div>
 				<h2>The Mealler Report</h2>
