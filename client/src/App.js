@@ -4,6 +4,7 @@ import './App.css';
 import Account from "./Components/Account";
 import LogIn from "./Components/SignIn";
 import Home from "./Components/Home";
+import ui from "./ENVIRONMENT/uiConfig";
 
 
 class App extends Component {
