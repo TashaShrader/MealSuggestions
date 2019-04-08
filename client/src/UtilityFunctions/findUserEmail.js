@@ -1,6 +1,6 @@
-let findUsernameCookie = function(){
+let findUserEmail = function(){
     return document.cookie.split("; ").filter(element =>{
-      if(element.match("meallerReportUser")){
+      if(element.match("meallerReportEmail")){
         return true;
       }
       return false;
@@ -8,4 +8,4 @@ let findUsernameCookie = function(){
     
   }
 
-  export default findUsernameCookie;
+  export default findUserEmail;

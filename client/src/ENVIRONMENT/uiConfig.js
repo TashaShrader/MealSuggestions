@@ -10,6 +10,8 @@ const uiConfig = {
   callbacks: {
     signInSuccessWithAuthResult: (result) => {
       console.log(result.user);
+      document.cookie = "meallerReportUser=" + result.user.displayName;
+      document.cookie = "meallerReportEmail=" + result.user.email;
       return true;
   }
 

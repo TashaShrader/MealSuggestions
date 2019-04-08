@@ -8,7 +8,7 @@ var Schema = mongoose.Schema;
 // This is similar to a Sequelize model
 const UserSchema = new Schema({
   name: {type: String, required: true, unique: true},
-  email: String,
+  email: {type: String, required: true, unique: true},
   Nutrients: [
     {
       nutrient: String,

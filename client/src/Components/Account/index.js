@@ -2,16 +2,12 @@ import React, {Component} from "react";
 import "./style.css";
 import NavBar from "../NavBar";
 import findUsernameCookie from "../../UtilityFunctions/findUsernameCookie"
+import findUserEmail from "../../UtilityFunctions/findUserEmail"
 import API from '../../UtilityFunctions/API'
-
-console.log(findUsernameCookie());
-
 
 class Account extends Component {
     
-componentDidMount = () =>{
-    console.log(API.createAccount("test"))
-}
+
     render(){
     return (
         <div>
@@ -26,7 +22,7 @@ componentDidMount = () =>{
                 <div className="potassium"><b>Potassium:</b></div>
                 <div className="sodium"><b>Sodium:</b></div>
                 <div className="calories"><b>Calories:</b></div>
-                <div className="protien"><b>Protien:</b></div>
+                <div className="protein"><b>Protien:</b></div>
                 <div className="vitA"><b>Vitamin A:</b></div>
                 <div className="vitE"><b>Vitamin E:</b></div>
                 <div className="vitB12"><b>Vitamin B12:</b></div>

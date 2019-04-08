@@ -1,7 +1,7 @@
 //BOILERPLATE AND REQUIRES
 const express = require("express");
 const path = require("path");
-const apiRoutes = require('./routes/api-routes')
+const apiRoutes = require('./routes/api-routes/APIs')
 // const htmlRoutes = require('./routes/html-routes')
 var mongoose = require("mongoose")
 //express server opened
@@ -25,7 +25,7 @@ var databaseUrl = "MealSearch";
 
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/" + databaseUrl;
 
-mongoose.connect (MONGODB_URI,{useNewUrlParser: true}, err => console.log(err)) ;
+mongoose.connect (MONGODB_URI,{useNewUrlParser: true}) ;
 //|------------------------------------------------------------------------------------------------|
 
 // Define middleware here
@@ -33,7 +33,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Define API apiRoutes here
-// app.use(apiRoutes);
+app.use(apiRoutes);
 // Send every other request to the React app
 // Define any API apiRoutes before this runs
 app.get("*", (req, res) => {
