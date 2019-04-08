@@ -4,7 +4,7 @@ import firebase from 'firebase';
 import app from 'firebase/app';
 import 'firebase/auth';
 import config from '../../ENVIRONMENT/FirebaseConfig';
-import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
+// import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import uiConfig from "../../ENVIRONMENT/uiConfig";
 app.initializeApp(config);
 
