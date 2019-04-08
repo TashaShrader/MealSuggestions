@@ -17,13 +17,11 @@ class SignInGoogleBase extends React.Component {
         .catch(error => {
           this.setState({ error });
         });
-  
       event.preventDefault();
     };
   
     render() {
       const { error } = this.state;
-  
       return (
         <form onSubmit={this.onSubmit}>
           <button type="submit">Sign In with Google</button>
