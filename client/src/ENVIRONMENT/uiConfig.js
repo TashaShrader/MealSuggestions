@@ -1,5 +1,5 @@
-import React from "react";
 import app from 'firebase/app';
+
 const uiConfig = {
   signInFlow : "popup",
   signInOptions : [
@@ -9,7 +9,7 @@ const uiConfig = {
 
   callbacks: {
     signInSuccessWithAuthResult: (result) => {
-      console.log(result.user.displayName);
+      console.log(result.user);
       return true;
   }
 

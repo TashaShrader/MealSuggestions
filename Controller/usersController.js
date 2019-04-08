@@ -1,7 +1,12 @@
 const db = require("../models/User");
 var moment = require('moment');
+const mongoose = require('mongoose')
 var now = moment().format("L")
 console.log(now);
+
+
+
+
 
 //return nutrients from today
 let searchNutrientsByDate = function(nutsArrayElement){
@@ -17,11 +22,16 @@ module.exports = {
          console.log(docs[10].Nutrients.map(searchNutrientsByDate))
      }).catch(err => console.log(err))
 },
-  create: function(req, res) {
+  createAccount: function(req, res) {
+    console.log(req);
     db.create(req, (err,newDoc)=>{
-        console.log(newDoc);
+      if(err) return err;
+      console.log(newDoc)
+      return newDoc;
     })
+    res.json(res);
   },
+
 //   update: function(req, res) {
 //     db.User
 //       .findOneAndUpdate({ _id: req.params.id }, req.body)
