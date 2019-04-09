@@ -21,5 +21,11 @@ export default{
         email = emailArr[1]
         console.log(email)
         return axios.get("http://localhost:3001/api/meal/getNutrients/" + email)
-    }
+    },
+submitMeal: function(meal){
+    return axios.post("http://localhost:3001/api/meal/mealtonutrients", meal);
+},
+addNutrients: function(nutrient, email){
+    return axios.put("http://localhost:3001/api/meal/nutrient", nutrient, email)
+}
 }
