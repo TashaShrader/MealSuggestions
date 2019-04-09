@@ -12,8 +12,9 @@ margin-left: 25%;
 box-shadow: 2px 2px rgb(66, 18, 18);
 
 }
+
 .user {
-font-size: 30px;
+font-size: 40px;
 text-align: center;
 margin-top: 10px;
 font-family: 'Baloo Chettan', cursive;
@@ -30,9 +31,9 @@ font-family: 'Oswald', sans-serif;
 
 }
 .image {
-max-width: 400px;
+max-width: 500px;
 float: right;
-margin-right: 30px;
+margin-right: 10%;
 }
 img {
 border-radius: 30px 10px 10px 10px;

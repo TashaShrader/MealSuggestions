@@ -56,7 +56,7 @@ class Account extends Component {
                 <div className="vitD"><b>Vitamin D:</b></div> */}
             </div>
             <div className="account">
-                <div className="user">Hello "will pull in user name here"</div>
+                <div className="user">Welcome!</div>
                 <div className="suggestions">Suggestions!</div>
                 <div className="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRWUptfobG4DwbB-b2TSHdz11tcihM8XMmuK1duEp1crcHyiurTg"></img></div>
                 <div className="stuff">stuff</div>

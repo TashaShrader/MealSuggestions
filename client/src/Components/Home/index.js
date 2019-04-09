@@ -39,6 +39,7 @@ class Home extends Component {
       nutArray.forEach(element =>{
         API.addNutrients({nutrient: element,email : findUserEmail()});
       })
+    
     })
     
   }
@@ -48,9 +49,9 @@ class Home extends Component {
     return (
       <div>
         <NavBar />
-        <p>
+        <div className="what">
           What meals have you eaten today?
-        </p>
+        </div>
         <form className="form">
           <input
             value={this.state.meal}

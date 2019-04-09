@@ -1,0 +1,15 @@
+.list-group-item {
+background-color: rgb(207, 183, 151);
+margin-top: 5px;
+margin-left: auto;
+margin-right: auto;
+border-style: solid;
+margin-right: auto;
+border-style: solid;
+border-color: white;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 10px;
+font-family: 'Work Sans', sans-serif;
+box-shadow: 2px 2px rgb(66, 18, 18);
+}
