@@ -6,7 +6,37 @@ a:focus {
 a:focus {
     outline: none;
 }
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px 5px 5px 30px;
+    width: 92%;
 
+}
+.what {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 92%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: grey;
+    border-radius: 5px 5px 5px 5px;
+margin-bottom: 3px;
+margin-top: 3px;
+}
+.form {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 5px;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 5px;
+
+
+}
 body{
     margin:0;
     padding:0;

@@ -43,6 +43,7 @@ class Home extends Component {
         API.addNutrients({nutrient: element,email : findUserEmail()});
         this.setState({redirect: true})
       })
+    
     })
     
   }
@@ -54,9 +55,9 @@ class Home extends Component {
     return (
       <div>
         <NavBar />
-        <p>
+        <div className="what">
           What meals have you eaten today?
-        </p>
+        </div>
         <form className="form">
           <input
             value={this.state.meal}
