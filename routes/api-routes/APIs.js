@@ -4,6 +4,7 @@ var axios = require("axios");
 var Controller = require("../../Controller/usersController")
 var mongoose = require("mongoose");
 var moment = require("moment")
+var sumNutrients = require("../../UtilityFunctions/createSummedNutrientArray")
 
 //setup router access
 var app = express.Router();
@@ -27,6 +28,13 @@ app.put("/api/meal/nutrient", (req, res) =>{
     }
     controller.updateNutrients(nutrientUpdateObj)
 });
+
+app.get("/api/meal/getNutrients/:id", (req,res) =>{
+    console.log("req makes it to server....")
+    Controller.findByDate(req.params.id).then(nutrients => {
+        res.send(sumNutrients(nutrients.Nutrients));
+    })
+})
 
 
 module.exports = app;

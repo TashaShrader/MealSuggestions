@@ -41,13 +41,13 @@ const Mitch1 = {
 // controller.create(Mitch2);
 // controller.create(Mitch3);
 // console.log(controller.findByDate("Mulch"));
-// let nutrientUpdateObj = {
-//     email: "mitburr@gmail.com",
-//     nutrient: {
-//         nutrient: "Taste of Freedom",
-//         quantity: 0.5,
-//         date: moment().format("L")
-//     }
-// }
-// controller.updateNutrients(nutrientUpdateObj)
+let nutrientUpdateObj = {
+    email: "mitburr@gmail.com",
+    nutrient: {
+        nutrient: "Taste of Freedom",
+        quantity: 0.5,
+        date: moment().format("L")
+    }
+}
+controller.updateNutrients(nutrientUpdateObj)
 controller.findByDate("mitburr@gmail.com")
