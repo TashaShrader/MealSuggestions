@@ -5,26 +5,27 @@
 The Mealler Report is designed to take in users daily meals and provide daily neutrient information as well as provide a meal suggestion.
 <br>
 check it out!:
+<br>
 https://the-mealler.herokuapp.com/
 
 
 <h1> Creators </h1>
 
-Mitchell
-Tou
-Tasha
-Drew
-Case
+<li>Mitchell
+<li>Tou
+<li>Tasha
+<li>Drew
+<li>Case
 
 <h1> Technologies Used </h1>
-React
-ReactDOM
-JavaScript
-Express
-Firebase
-Axios
-Html
-Css
+<li>React
+<li>ReactDOM
+<li>JavaScript
+<li>Express
+<li>Firebase
+<li>Axios
+<li>Html
+<li>Css
 
 
 <h1> Installs </h1>
