@@ -30,6 +30,7 @@ app.put("/api/meal/nutrient", (req, res) =>{
         }
     }
     Controller.updateNutrients(nutrientUpdateObj)
+    res.redirect("http://localhost:3000/account")
 });
 
 app.get("/api/meal/getNutrients/:id", (req,res) =>{

@@ -4,6 +4,7 @@ import NavBar from "../NavBar";
 import findUserEmail from "../../UtilityFunctions/findUserEmail"
 import findUsernameCookie from "../../UtilityFunctions/findUsernameCookie"
 import API from "../../UtilityFunctions/API"
+import { Route, Redirect } from 'react-router'
 
 
 class Home extends Component {
@@ -25,11 +26,13 @@ class Home extends Component {
 
     // Updating the input's state
     this.setState({
-      [name]: value
+      [name]: value,
+      redirect: false
     });
   };
 
   handleFormSubmit = event => {
+
     // Preventing the default behavior of the form submit (which is to refresh the page)
     event.preventDefault();
     API.submitMeal({meal: this.state.meal}).then(res => {
@@ -38,13 +41,16 @@ class Home extends Component {
       console.log(nutArray)
       nutArray.forEach(element =>{
         API.addNutrients({nutrient: element,email : findUserEmail()});
+        this.setState({redirect: true})
       })
     })
     
   }
 
   render() {
-
+    if(this.state.redirect){
+      return <Redirect to="/account"></Redirect>
+    }
     return (
       <div>
         <NavBar />
@@ -59,7 +65,7 @@ class Home extends Component {
             type="text"
             placeholder="Most Recent Meal"
           />
-          <button onClick={this.handleFormSubmit}>Submit</button>
+          <button onClick={this.handleFormSubmit} >Submit</button>
         </form>
         <div className="container">
           <section className="col-md-12 content" id="home">
