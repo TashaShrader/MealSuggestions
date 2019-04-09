@@ -1,5 +1,5 @@
 # The Mealler Report!
-<img src="image (22).png>
+![alt text](image (22).png)
 
 <h1> Overview </h1>
 
