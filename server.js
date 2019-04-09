@@ -11,7 +11,7 @@ const app = express();
 //HEROKU DEPLOYMENT SERVER BOILERPLATE
 
 //or instantiated to open a port for Heroku
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));

@@ -1,19 +1,45 @@
 import React, {Component} from "react";
 import "./style.css";
 import NavBar from "../NavBar";
+import API from "../../UtilityFunctions/API"
+import findUserEmail from "../../UtilityFunctions/findUserEmail"
+import List from "../List/List"
+import ListItem from "../List/ListItem"
 // import findUsernameCookie from "../../UtilityFunctions/findUsernameCookie"
 // import findUserEmail from "../../UtilityFunctions/findUserEmail"
 // import API from '../../UtilityFunctions/API'
 
 class Account extends Component {
-    
+    state ={
+        nutrients: []
+    }
+    componentDidMount = () => {
+        console.log(findUserEmail());
+        API.getNutrients(findUserEmail())
+          .then(res => {
+              console.log(res.data)
+              this.setState({nutrients: res.data})
+              console.log(this.state.nutrients)
+          })
+      }
 
     render(){
     return (
         <div>
             <NavBar />
             <div className="row">
-            <div className="row-header">Daily Nutrition Values</div>
+            <List>
+                {this.state.nutrients.map(element => {
+                    return (
+                        <ListItem key = {element.nutrient} quantity = {element.quantity}>
+                        <strong>
+                            {element.nutrient} : {element.quantity}
+                        </strong>
+                        </ListItem>
+                    )
+                })}
+            </List>
+            {/* <div className="row-header">Daily Nutrition Values</div>
                 <div className="calcium"><b>Calcium:</b></div>
                 <div className="carbs"><b>Carbohydrates:</b></div>
                 <div className="fats"><b>Fats:</b></div>
@@ -27,7 +53,7 @@ class Account extends Component {
                 <div className="vitE"><b>Vitamin E:</b></div>
                 <div className="vitB12"><b>Vitamin B12:</b></div>
                 <div className="vitC"><b>Vitamin C:</b></div>
-                <div className="vitD"><b>Vitamin D:</b></div>
+                <div className="vitD"><b>Vitamin D:</b></div> */}
             </div>
             <div className="account">
                 <div className="user">Hello "will pull in user name here"</div>

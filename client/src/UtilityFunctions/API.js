@@ -15,5 +15,11 @@ export default{
         console.log(userObj);
         return axios.post("http://localhost:3001/api/meal/login", userObj);
         
+    },
+    getNutrients: function(email){
+        let emailArr = email[0].split("=");
+        email = emailArr[1]
+        console.log(email)
+        return axios.get("http://localhost:3001/api/meal/getNutrients/" + email)
     }
 }
