@@ -8,10 +8,39 @@ import API from "../../UtilityFunctions/API"
 
 class Home extends Component {
 
+  state = {
+    meal: "",
+  };
+
   componentDidMount = () => {
 
     API.createAccount(findUsernameCookie(), findUserEmail())
       .then(res => console.log(res))
+  }
+
+  handleInputChange = event => {
+    // Getting the value and name of the input which triggered the change
+    let value = event.target.value;
+    const name = event.target.name;
+
+    // Updating the input's state
+    this.setState({
+      [name]: value
+    });
+  };
+
+  handleFormSubmit = event => {
+    // Preventing the default behavior of the form submit (which is to refresh the page)
+    event.preventDefault();
+    API.submitMeal({meal: this.state.meal}).then(res => {
+      console.log(res.data)
+      let nutArray = Object.values(res.data)
+      console.log(nutArray)
+      nutArray.forEach(element =>{
+        API.addNutrients({nutrient: element,email : findUserEmail()});
+      })
+    })
+    
   }
 
   render() {
@@ -19,6 +48,19 @@ class Home extends Component {
     return (
       <div>
         <NavBar />
+        <p>
+          What meals have you eaten today?
+        </p>
+        <form className="form">
+          <input
+            value={this.state.meal}
+            name="meal"
+            onChange={this.handleInputChange}
+            type="text"
+            placeholder="Most Recent Meal"
+          />
+          <button onClick={this.handleFormSubmit}>Submit</button>
+        </form>
         <div className="container">
           <section className="col-md-12 content" id="home">
             <div className="col-lg-6 col-md-6 content-item tm-black-translucent-bg tm-logo-box">
