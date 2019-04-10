@@ -1,36 +1,59 @@
 ![Mealler logo](https://github.com/medcoguy/GitTesting/blob/master/images/image%20(1).png)
-=================================================================================================
-<h1> Overview </h1>
+==============================================================================
+## Overview 
 
-The Mealler Report is designed to take in users daily meals and provide daily neutrient information as well as provide a meal suggestion.
-<br>
-check it out!:
-<br>
+#### The Mealler Report is designed to take in users daily meals and provide daily neutrient information as well as provide a meal suggestion.
+
+==============================================================================
+
+## See the deployed app at:
 https://the-mealler.herokuapp.com/
 
-=================================================================================================
-<h1> Creators </h1>
+==============================================================================
 
-<li>Mitchell
-<li>Tou
-<li>Tasha
-<li>Drew
-<li>Case
-=================================================================================================
-<h1> Technologies Used </h1>
-<li>React
-<li>ReactDOM
-<li>JavaScript
-<li>Express
-<li>Firebase
-<li>Axios
-<li>Html
-<li>Css
+## Creators 
+* Mitchell Burr
+* Tou Thou
+* Tasha Schrader 
+* Drew Brooksbank
+* Case Pollock
+ 
+==============================================================================
 
-=================================================================================================
-<h1> Installs </h1>
- Run npm run all-install in order to build the dependency tree for client and server simultaneously
+## Technologies Used 
+* React
+* ReactDOM
+* JavaScript
+* Node/Express
+* Firebase
+* Axios
+* CSS
+* MongoDB/Mongoose
 
-npm start will start both client development server and overhead server
+## New Technologies
+* Edamam API
+* Google Oauth 2.0
 
- Concurrently must be installed. 'npm install --save concurrently 
+==============================================================================
+
+## Installs 
+ * Run npm run all-install in order to build the dependency tree for client and server simultaneously
+* npm start will start both client development server and overhead server
+ *Concurrently must be installed. 'npm install --save concurrently 
+ 
+ ==============================================================================
+ 
+ ### Screenshots
+
+## Login
+![Login ](https://github.com/medcoguy/GitTesting/blob/master/images/login.PNG)
+
+ ==============================================================================
+
+## Code Snippet
+ ![Code Snip ](https://github.com/medcoguy/GitTesting/blob/master/images/code%20snip.PNG)
+ 
+ ==============================================================================
+ 
+ ## Edamam API
+ ![Edamam## Code Snippet ](https://github.com/medcoguy/GitTesting/blob/master/images/edamam.PNG)
