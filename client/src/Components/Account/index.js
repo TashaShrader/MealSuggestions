@@ -55,6 +55,9 @@ class Account extends Component {
                 <div className="vitC"><b>Vitamin C:</b></div>
                 <div className="vitD"><b>Vitamin D:</b></div> */}
             </div>
+
+            {/* Still need to define and add meal suggestions  */}
+
             <div className="account">
                 <div className="user">Welcome!</div>
                 <div className="suggestions">Suggestions!</div>
