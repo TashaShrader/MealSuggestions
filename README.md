@@ -24,7 +24,7 @@ https://the-mealler.herokuapp.com/
 <li>Express
 <li>Firebase
 <li>Axios
-<li>Html
+<li>Google Oauth 2.0
 <li>Css
 
 =================================================================================================
