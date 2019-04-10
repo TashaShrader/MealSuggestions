@@ -48,6 +48,13 @@ https://the-mealler.herokuapp.com/
 ## Login
 ![Login ](https://github.com/medcoguy/GitTesting/blob/master/images/login.PNG)
 
+## Login with Google
+![Login ](https://github.com/medcoguy/GitTesting/blob/master/images/Google%20Login.png)
+
+## User Account with Data
+![Login ](https://github.com/medcoguy/GitTesting/blob/master/images/Acct%20data.png)
+
+
  ==============================================================================
 
 ## Code Snippet
